@@ -116,7 +116,7 @@ class ListMethods():
         else:
             return None
 
-arr = [2, 5, 1, 10, 3, 19, 7, 4, 16, 1, -6, 3]
+arr = [5, 7, 1, 2, 10]
 uniqueLength = len(ListMethods.remove_duplicates(arr))
 print(f"Highest to Lowest")
 for i in range(uniqueLength):
